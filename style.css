@@ -84,3 +84,94 @@ form {
 .field button:hover {
     background: #1d8df7;
 }
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span, .form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.form a {
+    color: #0866ff;
+    text-decoration: none;
+}
+
+.form-content a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background: #d4d4d4;
+    margin: 36px 0;
+}
+
+.line::before {
+    content: "Or";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 15px;
+    background: #fff;
+    color: #232836;
+}
+
+.media-options a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.facebook {
+    background: #0866ff;
+    color: #fff;
+}
+
+a.facebook .facebook-icon {
+    height: 28px;
+    width: 28px;
+    color: #0866ff;
+    font-size: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.facebook-icon, .google-img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.google-img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+.google {
+    border: 1px solid #cacaca;
+}
+
+.google span {
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+
+@media(max-width:576px){
+    .form{
+        max-width: 400px;
+    }
+}
