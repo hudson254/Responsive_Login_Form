@@ -1,6 +1,6 @@
 const eyeIcon = document.querySelector(".eye-icon");
 
-const password = document.querySelector(".password");
+const password = document.querySelector("#password");
 
 eyeIcon.addEventListener("click",()=>{
 
